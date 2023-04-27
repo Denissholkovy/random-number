@@ -1,0 +1,73 @@
+@import url("keyframes.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: wheat;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-red {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  background: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  filter: blur(20px);
+  animation: AnimRed 7.99s infinite;
+}
+
+.circle-blue {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  background: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  filter: blur(20px);
+  animation: Animblue 6.99s infinite;
+}
+
+.block-random {
+  width: 300px;
+  height: 48px;
+  background: wheat;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 50;
+  box-shadow: 0 0 5px black;
+}
+
+.randon-text {
+  width: calc(100% - 100px);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 10px;
+}
+
+.btn-random {
+  width: 100px;
+  height: 100%;
+  background: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+}

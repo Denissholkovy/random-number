@@ -1,0 +1,19 @@
+@keyframes AnimRed {
+  from {
+    padding: 0px;
+  }
+
+  to {
+    padding: 40px;
+  }
+}
+
+@keyframes Animblue {
+  from {
+    padding: 0px;
+  }
+
+  to {
+    padding: 40px;
+  }
+}

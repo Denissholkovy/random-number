@@ -1,19 +1,41 @@
 @keyframes AnimRed {
-  from {
-    padding: 0px;
+  0% {
+    opacity: 0;
   }
 
-  to {
-    padding: 40px;
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
 @keyframes Animblue {
-  from {
-    padding: 0px;
+  0% {
+    opacity: 0;
   }
 
-  to {
-    padding: 40px;
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes AnimGreen {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }

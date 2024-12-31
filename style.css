@@ -27,7 +27,7 @@
   top: 1%;
   left: 1%;
   filter: blur(20px);
-  animation: AnimRed 5s infinite;
+  animation: Anim 5s infinite;
 }
 
 .circle-blue {
@@ -40,7 +40,7 @@
   top: 40%;
   left: 90%;
   filter: blur(20px);
-  animation: Animblue 6s infinite;
+  animation: Anim 6s infinite;
 }
 
 .circle-green {
@@ -53,7 +53,7 @@
   top: 80%;
   left: 20%;
   filter: blur(20px);
-  animation: AnimGreen 7s infinite;
+  animation: Anim 7s infinite;
 }
 
 .block-random {
